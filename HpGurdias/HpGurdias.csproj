@@ -47,12 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dia.cs" />
+    <Compile Include="Guardia.cs" />
     <Compile Include="HpGuardias.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="HpGuardias.Designer.cs">
       <DependentUpon>HpGuardias.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lugar.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

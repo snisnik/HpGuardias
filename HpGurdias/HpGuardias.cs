@@ -196,11 +196,6 @@ namespace HpGurdias
                 currentDate = currentDate.AddDays(1);
             }
             MessageBox.Show("Done");
-            var csv = new CsvWriter(textWriter);
-            foreach (var item in list)
-            {
-                csv.WriteRecord(item);
-            }
         }
     }
 }
